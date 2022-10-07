@@ -1,0 +1,33 @@
+@charset "UTF-8";
+body{
+    background-color: #FFFFB3;
+    color: #191970;
+    font-family: Arial, Verdana, sans-serif;
+}
+h1{
+    background-color: #FFCC00;
+    color: black;
+    text-align: center;
+    line-height: 200%;
+    font-family: Georgia, 'Times New Roman', serif;
+    padding: 0.5em;
+}
+img{
+    height: 240px;
+    width: 320px;
+}
+figure{
+    width: 320px;
+    padding: 5px;
+    border: 2px solid #000000;
+}
+figcaption{
+    text-align: center;
+    font-family: Papyrus, fantasy;
+}
+footer{
+    color: #333333;
+    font-size: 0.75em;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}

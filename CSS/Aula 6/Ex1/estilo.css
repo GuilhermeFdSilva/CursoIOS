@@ -1,0 +1,41 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body{
+    background-color: #F4F4F4;
+    color: #555555;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+.btn{
+    background-color: #333;
+    color: #FFF;
+    padding: 10px 15px;
+    border: none;
+    
+}
+.container{
+    width: 80%;
+    margin: 20px 30px;
+}
+.box-1{
+    background-color: #333;
+    color: #FFF;
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+    padding: 20px;
+}
