@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang = "pt-br">
+
+<head>
+    <meta charset = "UTF-8">
+    <title>Exemplo Clear CSS</title>
+    <link rel = "stylesheet" href = "estilo.css">
+</head>
+
+<body>
+    <h2>Sem Clear</h2>
+    <div class = "div1">Div 1</div>
+    <div class = "div2">Div2 - Note que Div2 está depois do Div1 no código HTML. Entretanto, uma vez que Div1 float está configurado como left, o texto do Div2 ficara wm volta do Div1.</div>
+    <br><br>
+    <h2>Com Clear</h2>
+    <div class = "div3">Div3</div>
+    <div class = "div4">
+        Div4 - Aqui, clear: left; move Div4 para baixo do Div3, que está com float configurado com left.
+        Isso acontece, porque a propriedade clear: left desabilita o float à esquerda.
+    </div>
+</body>
+
+</html>
