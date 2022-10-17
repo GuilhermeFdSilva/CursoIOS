@@ -1,0 +1,103 @@
+@charset "UTF-8";
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Silkscreen';
+    background-color: #1d0c20;
+    color: #bfab93;
+    text-align: center;
+}
+header{
+    overflow-x: hidden;
+    background-color: #2e2e2e;
+    text-align: center;
+    border-bottom: 1px solid #1d0c20;
+}
+header li{
+    display: inline;
+}
+header li a{
+    text-decoration: none;
+    padding: 5px;
+    transition: .3s ease;
+}
+#check-main{
+    
+}
+#label-menu{
+    cursor: pointer;
+    float: left;
+    position: relative;
+    left: -20px;
+    z-index: 1;
+}
+#label-menu .top-menu{
+    position: absolute;
+    left: 0px;
+    opacity: 0;
+}
+#label-menu .top-menu:hover{
+    opacity: 1;
+    transition: .3s ease;
+}
+header ul .img{
+    position: absolute;
+    top: 10px;
+}
+header ul .img .top-img{
+    position: absolute;
+    left: 5px;
+    opacity: 0;
+}
+header ul .img .top-img:hover{
+    opacity: 1;
+    transition: .3s ease;
+}
+header ul .btn a{
+    color: #1d0c20;
+    background-color: #7345d6;
+    border: 3px solid #6743a5;
+    float: right;
+    position: relative;
+    top: -8px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+header ul .btn a:hover{
+    color: black;
+    background-color: #68b2f8;
+}
+.menu{
+    background-color: #2e2e2e;
+    height: 100%;
+    width: 200px;
+    position: absolute;
+    transition: .3s linear;
+    text-align: left;
+    left: -200px;
+}
+.menu nav{
+    position: absolute;
+    width: 100%;
+}
+.menu div{
+    padding: 10px;
+    border-bottom: 1px solid #1d0c20;
+}
+.menu div:hover{
+    background-color: #bfab93;
+    color: #594747;
+}
+.menu a{
+    text-decoration: none;
+    color: #7345d6;
+}
+#check-main:checked ~ .menu{
+    transform: translateX(200px);
+}
+#menu-jogos{
+    display: none;
+}
+#menu-artes{
+    display: none;
+}
