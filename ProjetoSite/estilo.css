@@ -1,103 +1,151 @@
 @charset "UTF-8";
+@font-face {
+    font-family: 'God of war';
+    src: url('GODOFWAR.TTF') format('truetype');
+}
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Silkscreen';
-    background-color: #1d0c20;
-    color: #bfab93;
-    text-align: center;
-}
-header{
-    overflow-x: hidden;
-    background-color: #2e2e2e;
-    text-align: center;
-    border-bottom: 1px solid #1d0c20;
-}
-header li{
-    display: inline;
-}
-header li a{
-    text-decoration: none;
-    padding: 5px;
-    transition: .3s ease;
-}
-#check-main{
-    
-}
-#label-menu{
-    cursor: pointer;
-    float: left;
-    position: relative;
-    left: -20px;
-    z-index: 1;
-}
-#label-menu .top-menu{
-    position: absolute;
-    left: 0px;
-    opacity: 0;
-}
-#label-menu .top-menu:hover{
-    opacity: 1;
-    transition: .3s ease;
-}
-header ul .img{
-    position: absolute;
-    top: 10px;
-}
-header ul .img .top-img{
-    position: absolute;
-    left: 5px;
-    opacity: 0;
-}
-header ul .img .top-img:hover{
-    opacity: 1;
-    transition: .3s ease;
-}
-header ul .btn a{
-    color: #1d0c20;
-    background-color: #7345d6;
-    border: 3px solid #6743a5;
-    float: right;
-    position: relative;
-    top: -8px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-header ul .btn a:hover{
-    color: black;
-    background-color: #68b2f8;
+    font-family: 'God of war';
 }
 .menu{
-    background-color: #2e2e2e;
-    height: 100%;
-    width: 200px;
-    position: absolute;
-    transition: .3s linear;
-    text-align: left;
-    left: -200px;
+    background: linear-gradient(#373737, #535353);
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-.menu nav{
-    position: absolute;
-    width: 100%;
+.menu .logo{
+    padding-top: 5px;
 }
-.menu div{
-    padding: 10px;
-    border-bottom: 1px solid #1d0c20;
-}
-.menu div:hover{
-    background-color: #bfab93;
-    color: #594747;
-}
-.menu a{
+.menu nav a{
     text-decoration: none;
-    color: #7345d6;
+    padding: 5px;
+    padding-inline: 15px;
+    font-size: larger;
+    color: #9e9e9e;
+    border-left: 2px solid #535353;
+    text-shadow: 0 0 1px #ffffff;
 }
-#check-main:checked ~ .menu{
-    transform: translateX(200px);
+.menu nav .link1{
+    border: none;
 }
-#menu-jogos{
-    display: none;
+.menu .pesquisa{
+    background: linear-gradient(#9e9e9e, #6e6e6e);
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
-#menu-artes{
-    display: none;
+.menu .pesquisa .barra{
+    position: relative;
+    left: 15px;
+    border: none;
+    background: none;
+    outline: none;
+    color: #373737;
+}
+.menu .pesquisa .barra::placeholder{
+    color: #373737;
+}
+.menu .pesquisa a img{
+    background: linear-gradient(#373737, #535353);
+    padding: 5px;
+    border-radius: 20px;
+    position: relative;
+    top: 2px;
+    right: 3px;
+}
+.corpo section{
+    font-size: 3vw;
+    text-shadow: 0 0 2px #ffffff;
+    display: flex;
+    height: 90vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.corpo section .seta1{
+    position: absolute;
+    top: 93vh;
+    left: 1vw;
+    z-index: -1;
+    transform: rotate(270deg);
+    height: 15%;
+    width: 10%;
+}
+.corpo section .seta2{
+    position: absolute;
+    top: 93vh;
+    right: 1vw;
+    z-index: -1;
+    transform: rotate(270deg);
+    height: 15%;
+    width: 10%;
+}
+.corpo section a{
+    text-decoration: none;
+    color: black;
+    font-size: 4vw;
+}
+.corpo section h1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.corpo section h1 p:nth-child(2){
+    color: #b70000;
+    text-shadow: 0 0 2px #ffffff;
+}
+.corpo section:nth-child(1){
+    background-image: url(fundoPrincipal.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.corpo section:nth-child(3){
+    background-image: url(god1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.corpo section:nth-child(5){
+    background-image: url(god2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.corpo section:nth-child(7){
+    background-image: url(god3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.corpo section:nth-child(9){
+    background-image: url(god4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.corpo section:nth-child(11){
+    background-image: url(ragnarok.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 4vw;
+}
+footer{
+    height: 30vh;
+    text-align: center;
+    background: linear-gradient(#535353, #000000);
+    color: #9e9e9e;
+    text-shadow: 0 0 1px #ffffff;
+}
+footer .footer{
+    padding-top: 5vh;
+    font-size: 1.5vw;
+}
+footer .footer a{
+    text-decoration: none;
+    color: #9e9e9e;
 }
