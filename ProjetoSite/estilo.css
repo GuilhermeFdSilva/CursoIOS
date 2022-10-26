@@ -16,6 +16,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    z-index: 1;
 }
 .menu .logo{
     padding-top: 5px;
@@ -70,12 +71,12 @@ body{
     text-align: center;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(#9e9e9e, #373737);
 }
 .corpo section .seta1{
     position: absolute;
     top: 93vh;
     left: 1vw;
-    z-index: -1;
     transform: rotate(270deg);
     height: 15%;
     width: 10%;
@@ -84,7 +85,6 @@ body{
     position: absolute;
     top: 93vh;
     right: 1vw;
-    z-index: -1;
     transform: rotate(270deg);
     height: 15%;
     width: 10%;
