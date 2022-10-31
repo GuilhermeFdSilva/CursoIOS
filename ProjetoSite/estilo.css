@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
     font-family: 'God of war';
-    src: url('GODOFWAR.TTF') format('truetype');
+    src: url('./img/GODOFWAR.TTF') format('truetype');
 }
 body{
     margin: 0;
@@ -104,32 +104,32 @@ body{
     text-shadow: 0 0 2px #ffffff;
 }
 .corpo section:nth-child(1){
-    background-image: url(fundoPrincipal.png);
+    background-image: url(./img/home/fundoPrincipal.png);
     background-size: cover;
     background-attachment: fixed;
 }
 .corpo section:nth-child(3){
-    background-image: url(god1.jpg);
+    background-image: url(./img/home/god1.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
 .corpo section:nth-child(5){
-    background-image: url(god2.jpg);
+    background-image: url(./img/home/god2.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
 .corpo section:nth-child(7){
-    background-image: url(god3.jpg);
+    background-image: url(./img/home/god3.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
 .corpo section:nth-child(9){
-    background-image: url(god4.jpg);
+    background-image: url(./img/home/god4.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
 .corpo section:nth-child(11){
-    background-image: url(ragnarok.jpg);
+    background-image: url(./img/home/ragnarok.jpg);
     background-size: cover;
     background-attachment: fixed;
     font-size: 4vw;
