@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html lang = "pt-br">
+
+<head>
+    <meta charset = "UTF-8">
+    <link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel = "stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin = "anonymous">
+    <title>Exemplo Bootstrap</title>
+</head>
+
+<body>
+    <nav class = "navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class = "container-fluid">
+            <a class = "navbar-brand" href = "#">Bootstrap Navbar</a>
+            <button class = "navbar-toggler" type = "button" data-bs-toggler = "collapse" data-bs-target= "#navbarSupportedContent" aria-controls = "navbarSupportedContent" aria-expanded = "false" aria-label = "Toggle navigation"><span class = "navbar-toggle-icon"></span></button>
+            <div class = "collapse navbar-collapse" id = "navbarSupportedContent">
+                <ul class = "navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class = "nav-item">
+                        <a href = "#" class = "nav-link ative" aria-current = "page" >Home</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href = "#" class = "nav-link ative">Sobre</a>
+                    </li>
+                    <li class = "nav-item dropdown">
+                        <a class = "nav-link dropdown-toggle" id = "navBarDropdown" role = "button" data-bs-toggle = "dropdown" aria-expanded = "false" href = "#">Outros</a>
+                        <ul class = "dropdown-menu" aria-labelledby = "navbarDropdown">
+                            <li><a href = "#" class = "dropdown-item">Projeto</a></li>
+                            <li><a href = "#" class = "dropdown-item">Contato</a></li>
+                            <li>
+                                <hr class = "dropdown-divider">
+                            </li>
+                            <li><a href = "#" class="dropdown-item">Qualquer coisa</a></li>
+                        </ul>
+                    </li>
+                    <li class = "nav-item">
+                        <a href = "#" class = "nav-link disabled" tabindex = "-1" aria-disabled = "true">Desabilitado</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class = "p-5 bg-warning">
+        <div class = "container-fluid py-5">
+            <h1 class = "display-5 fw-bold">Bem-vindo ao meu Website</h1>
+            <p class = "col-md-8 fs-4">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident hic reiciendis a possimus natus necessitatibus quas obcaecati labore aut eaque quisquam iure, cumque, aperiam sapiente repellat ullam blanditiis est dolore.
+            </p>
+            <a href = "#" class = "btn btn-primary btn-lg" role = "button">Aprenda Mais</a>
+        </div>
+    </header>
+    <section class = "container text-center">
+        <h1 class = "pb-2 mt-4 mb-2 border-bottom">Hallo, world! <small>Secindary text</small></h1>
+        <p class = "lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus culpa voluptatibus ducimus debitis nemo aliquid animi! Repellat nulla soluta voluptatum! Fuga excepturi nihil maiores aliquam dolore impedit, ab earum necessitatibus.
+        </p>
+        <p>
+            <mark>Lorem ipsum dolor sit amet</mark> consectetur adipisicing elit. <del>Architecto dolor reprehenderit quia</del> sint rerum eius <u> quas illo voluptatem minus fugit dicta</u> ea quam. Sunt debitis illo repellat eaque?
+        </p>
+    </section>
+    <section class = "container">
+        <p class = "text-start text-lowercase">
+            Texto alinhado à esquerda da área de vizualização.
+        </p>
+        <p class = "text-center text-uppercase">
+                Texto alinhado centralizado na área de vizualização.
+        </p>
+        <p class = "text-nowrap">
+                Texto alinhado à esquerda da área de vizualização. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis laborum molestiae accusantium corrupti obcaecati maxime iste, expedita possimus alias placeat odio velit natus assumenda amet quas.
+        </p>
+        <hr>
+    </section>
+    <section class = "container">
+        <div class = "float-start">Float no início da área de vizualização.</div><br>
+        <div class = "float-end">Float no final da área de vizualização.</div><br>
+        <div class = "float-none">Sem float na área de vizualização.</div>
+        <div class = "clearfix"></div>
+        <hr>
+    </section>
+    <section class = "container">
+        <blockquote class = "blockquote">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vitae fuga perferendis sint nobis minima dolorum in, quaerat voluptatum ut, dolor, quia facere exercitationem est temporibus libero ex impedit. Qui!
+            </p>
+            <figcaption class = "blockquote-footer">
+                <cite title = "Source Title">Joãozinho</cite>
+            </figcaption>
+        </blockquote>
+        <hr>
+    </section>
+    <section class = "container">
+        <ul class = "list-unstyled">
+            <li>Item um</li>
+            <li>Item dois</li>
+            <li>Item três</li>
+            <li>Item quatro</li>
+        </ul>
+        <ul class = "list-inline">
+            <li class = "list-inline-item">Item um</li>
+            <li class = "list-inline-item">Item dois</li>
+            <li class = "list-inline-item">Item três</li>
+            <li class = "list-inline-item">Item quatro</li>
+        </ul>
+        <ol>
+            <li>Item um</li>
+            <li>Item dois</li>
+            <li>Item três</li>
+            <li>Item quatro</li>
+        </ol>
+    </section>
+    <section class = "container">
+        <code>&lt;h1&gt;Heading Text&lt;/h1&gt;</code>
+        <br><br>
+        Mude de diretório com o comando <kbd>cd</kbd>
+        <br><br>
+        Para acessar as configurações de edição, pressione <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
+        <hr>
+    </section>
+    <section class = "container">
+        <p class = "text-primary">Olá Mundo com a cor do texto: text-primary</p>
+        <p class = "text-success">Olá Mundo com a cor do texto: text-success</p>
+        <p class = "text-info">Olá Mundo com a cor do texto: text-info</p>
+        <p class = "text-warning">Olá Mundo com a cor do texto: text-warning</p>
+        <p class = "text-danger">Olá Mundo com a cor do texto: text-danger</p>
+        <p class = "text-muted">Olá Mundo com a cor do texto: text-muted</p>
+        <p class = "text-black-50">Olá Mundo com a cor do texto: text-black-50</p>
+        <p class = "bg-primary">Olá Mundo com a cor de fundo: bg-primary</p>
+        <p class = "bg-success">Olá Mundo com a cor de fundo: bg-success</p>
+        <p class = "bg-info">Olá Mundo com a cor de fundo: bg-info</p>
+        <p class = "bg-warning">Olá Mundo com a cor de fundo: bg-warning</p>
+        <p class = "bg-danger">Olá Mundo com a cor de fundo: bg-danger</p>
+        <p class = "bg-muted">Olá Mundo com a cor de fundo: bg-muted</p>
+        <p class = "text-white bg-dark">Olá Mundo com a cor do texto: text-white, e a cor do fundo: bg-dark</p>
+        <p class = "text-white-50 bg-success">Olá Mundo com a cor do texto: text-white-50, e a cor do fundo: bg-success</p>
+        <hr>
+    </section>
+    <section class ="container">
+        <button class = "btn btn-outline-secondary">Botão Um</button>
+        <a href = "#" class = "btn btn-outline-secondary" role = "button">Botão Dois</a>
+        <input type = "submit" class = "btn btn-outline-secondary" value = "Enviar">
+        <br><br>
+    </section>
+    <section class = "container">
+        <button class = "btn btn-outline-secondary">Botão Um</button>
+        <a href = "#" class = "btn btn-outline-secondary" role = "button">Botão Dois</a>
+        <input type = "submit" class = "btn btn-outline-secondary" value = "Enviar">
+        <br><br>
+        <button class = "btn btn-primary">Primary</button>
+        <button class = "btn btn-secondary">Secondary</button>
+        <button class = "btn btn-success">Success</button>
+        <button class = "btn btn-info">Info</button>
+        <button class = "btn btn-warning">Warning</button>
+        <button class = "btn btn-danger">Danger</button>
+        <button class = "btn btn-dark">Dark</button>
+        <button class = "btn btn-light">Light</button>
+        <button class = "btn btn-link">Link</button>
+        <br><br>
+    </section>
+    <section class = "container">
+        <button class = "btn btn-outline-secondary">Botão Um</button>
+        <a href = "#" class = "btn btn-outline-secondary" role = "button">Botão Dois</a>
+        <input type = "submit" class = "btn btn-outline-secondary" value = "Enviar">
+        <br><br>
+        <button class = "btn btn-primary">Primary</button>
+        <button class = "btn btn-secondary">Secondary</button>
+        <button class = "btn btn-success">Success</button>
+        <button class = "btn btn-info">Info</button>
+        <button class = "btn btn-warning">Warning</button>
+        <button class = "btn btn-danger">Danger</button>
+        <button class = "btn btn-dark">Dark</button>
+        <button class = "btn btn-light">Light</button>
+        <button class = "btn btn-link">Link</button>
+        <br><br>
+        <button class = "btn btn-outline-secondary btn-lg">Botão Um</button>
+        <button class = "btn btn-primary btn-sm">Primary</button>
+        <button class = "btn btn-secondary" disabled = "disabled">Secondary</button>
+        <br><br>
+    </section>
+    <section class = "container">
+        <button class = "btn btn-outline-secondary">Botão Um</button>
+        <a href = "#" class = "btn btn-outline-secondary" role = "button">Botão Dois</a>
+        <input type = "submit" class = "btn btn-outline-secondary" value = "Enviar">
+        <br><br>
+        <button class = "btn btn-primary">Primary</button>
+        <button class = "btn btn-secondary">Secondary</button>
+        <button class = "btn btn-success">Success</button>
+        <button class = "btn btn-info">Info</button>
+        <button class = "btn btn-warning">Warning</button>
+        <button class = "btn btn-danger">Danger</button>
+        <button class = "btn btn-dark">Dark</button>
+        <button class = "btn btn-light">Light</button>
+        <button class = "btn btn-link">Link</button>
+        <br><br>
+        <button class = "btn btn-outline-secondary btn-lg">Botão Um</button>
+        <button class = "btn btn-primary btn-sm">Primary</button>
+        <button class = "btn btn-secondary" disabled = "disabled">Secondary</button>
+        <br><br>
+        <button type = "button" class = "btn btn-outline-primary">Primary</button>
+        <button type = "button" class = "btn btn-outline-secondary">Secondary</button>
+        <button type = "button" class = "btn btn-outline-success">Success</button>
+        <button type = "button" class = "btn btn-outline-danger">Danger</button>
+        <button type = "button" class = "btn btn-outline-warning">Warning</button>
+        <button type = "button" class = "btn btn-outline-info">Info</button>
+        <button type = "button" class = "btn btn-outline-light">Light</button>
+        <button type = "button" class = "btn btn-outline-dark">Dark</button>
+        <hr>
+    </section>
+    <script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity = "sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin = "anonymous"></script>
+</body>
+
+</html>
